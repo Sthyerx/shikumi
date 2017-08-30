@@ -1,0 +1,91 @@
+body {
+    background-color: lightblue;
+    font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {}
+
+a.linkbox {
+    background-color: rgb(70, 70, 70);
+    border-left: 7px solid red;
+    font-family: sans-serif;
+    width: 200px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+a.linkbox:link {}
+
+a.linkbox:hover {}
+
+.outerBox {
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+}
+
+.innerBox {
+    background-color: red;
+    width: 10%;
+    height: 100%
+}
+
+.innerBox:hover {
+    animation-name: expandBox;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.animatedBlock {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    animation-name: hoverOut;
+    animation-duration: 2s;
+}
+
+.animatedBlock:hover {
+    animation-name: hoverIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes expandBox {
+    0% {
+        width: 10%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes hoverIn {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+@keyframes hoverOut {
+    0% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: red;
+    }
+}

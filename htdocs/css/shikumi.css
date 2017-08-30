@@ -1,0 +1,76 @@
+body{
+    background-color: grey;
+    min-width: 500px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Title bar */
+div.titleBar {
+    background-color: #262626;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.titleBar:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+div.titleBar div.title {
+    font-family: sans-serif;
+    color: #14FF14;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 5px;
+}
+
+/* Main body */
+div.mainBody {
+    background-color: yellow;
+    display: inline-block;
+}
+
+/* Side bar (navBar) */
+ul.sideBar {
+    background-color: #515151;
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    height: 100%;
+    width: 140px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+li.sideBarItem {
+    text-align: center;
+}
+
+li.sideBarItem a {
+    font-family: sans-serif;
+    background-color: grey;
+    display: block;
+    padding: 2px;
+    margin: 5px 0px 5px 0px;
+    border-left: 5px solid #42FF37;
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+/* Side bar (ad content) */
+div.adBox {
+    background-color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
