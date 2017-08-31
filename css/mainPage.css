@@ -1,0 +1,39 @@
+
+div.titleBar {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    background-color: mediumblue;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.newsBox {
+    background-color: white;
+    color: black;
+    max-width: 100%;
+    padding: 15px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+div.newsBody {
+    background-color: transparent;
+}
+
+h3.newsHeading {
+    display: block;
+    margin: 0px;
+    padding-bottom: 0.2em;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+p.newsContent {
+    overflow: hidden;
+    display: inline-block;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 0px;
+}

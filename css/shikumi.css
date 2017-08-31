@@ -1,0 +1,118 @@
+body {
+    color: white;
+    font-family: sans-serif;
+    background-color: grey;
+    min-width: 500px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+/* Title bar */
+div.titleBar {
+    background-color: #262626;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.titleBar:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+div.titleBar div.title {
+    float: left;
+    font-family: sans-serif;
+    color: #14FF14;
+    margin: 5px;
+    font-size: 30px;
+    vertical-align: middle;
+    padding: 3px 5px;
+}
+
+/* Main body */
+div.mainBody {
+    text-align: center;
+    position: absolute;
+    background-color: gray;
+    padding: 10px;
+    top: 50px;
+    bottom: 0px;
+    left: 160px;
+    right: 170px;
+}
+
+/* Side bar (navBar) */
+ul.sideBar {
+    position: absolute;
+    background-color: #515151;
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    top: 50px;
+    bottom: 0px;
+    width: 140px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    float: left;
+}
+
+li.sideBarItem {
+    text-align: center;
+}
+
+li.sideBarItem a {
+    font-family: sans-serif;
+    background-color: grey;
+    display: block;
+    padding: 2px;
+    margin: 5px 0px 5px 0px;
+    border-left: 5px solid #42FF37;
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+/* Side bar (ad content) */
+div.adBox {
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    bottom: 0px;
+    text-align: center; 
+    background-color: white;
+    display: inline-block;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+span.greeting {
+    float: right;
+    padding: 15px;
+    margin: 0px 200px 0px 0px;
+}
+
+input.searchBox{
+    color: #262626;
+    margin: 0px;
+    width: 200px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    padding: 2px;
+    font-size: 16px;
+    background-color: white;
+}
+
+form.searchForm {
+    float: right;
+    margin: 0px;
+    padding: 12px;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+    min-width: 500px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Title bar */
+div.titleBar {
+    background-color: #262626;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.titleBar:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+div.titleBar div.title {
+    font-family: sans-serif;
+    color: #14FF14;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 5px;
+}
