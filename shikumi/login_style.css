@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background: #292929	;
+}
+
+nav {
+	margin: 0;
+	height: 55px;
+
+		position: relative;
+	
+	background-color: #1e1e1e; 
+}
+
+.nav-container {
+	width: 1500px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav-container>.logo{
+	margin: -100;
+	width: 200px;
+	height: 55px;
+	float: left;
+}
+
+.menu {
+	width: 100%;
+	height: 55px;
+	position: relative;
+}
+
+.menu>.menu-content{
+	width: 200px;
+	height: 55px;
+	float: right;
+	font-family: sans-serif,Arial;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	position: relative;
+	color: white;
+	line-height: 55px;
+}
+
+.menu>.menu-content>a{
+	color: white;
+	text-decoration: none;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #fff;
+	right: 152px;
+	top: 45px;
+}
+
+.login-form{
+	position: absolute;
+	width: 300px;
+	height: auto;
+	background: #fff;
+	right: 60px;
+	top: 50px;
+	border-radius: 2px;
+}
+
+.login-form>form{
+	width: 250px;
+	margin: 5px auto;
+	font-size: 16px;
+	font-family: sans-serif, arial;
+	color: grey;
+	letter-spacing: 0.05em;
+}
+
+input[type="text"],
+input[type="password"]{
+	width: 220px;
+	height: 30px;
+	border: 0px;
+	outline: none;
+	box-shadow: inset 0 0 10px #eee;
+	border-radius: 5px;
+	margin-top: 5px;
+	font-family: sans-serif, arial;
+	font-size: 16px;
+}
+
+input[type="submit"]{
+	width: 95%;
+	height: 35%;
+	background: #1aa539;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: sans-serif, arial;
+	color: white;
+	outline: none;
+	border: 0px;
+	border-radius: 3px;
+	letter-spacing: -0.05em;
+}
+
+input[type="submit"]:hover{
+	background: #1ac239;
+}
