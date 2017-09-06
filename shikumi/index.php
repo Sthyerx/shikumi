@@ -8,7 +8,8 @@
 
 	<link rel="icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
 	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+	<script src="js/jquery.js"></script>
 
 	<title> shikumi </title>
 </head>
